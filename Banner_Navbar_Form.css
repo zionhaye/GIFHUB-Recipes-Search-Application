@@ -1,0 +1,84 @@
+
+/*
+#Banner{
+    background-color: teal;
+    text-align:center;
+    font-size:35px;
+    margin-top:0%;
+    }
+#Banner p{
+    color:white;
+}*/
+
+
+
+#buttons{
+    position: absolute;
+    z-index: -1;
+}
+
+#form{
+    position: relative;
+    text-align: center;
+    flex: auto;
+}
+
+#section1{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
+.navbar{
+    background-color: teal;
+    overflow: hidden;
+    min-width: 20px;
+    height: 9vw;
+    max-height: 64px;
+    
+    }
+    
+    /* Change the color of links on hover */
+    .navbar a:hover {
+    background-color:grey;
+    color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .navbar a.nactive {
+    background-color: #4CAF50;
+    color: white;
+    }
+    
+    .navbar a {
+    float: center;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+    }
+    
+    
+        #form{
+            margin-left:500px;
+            margin-right:500px;
+          }  
+      
+          .nav-wrapper{
+            height: 10vw;
+            
+        }
+        .nav-wrapper,.nav-text{
+            
+            
+            font-size: 5vw;
+            
+            
+            text-align:center;
+        }
